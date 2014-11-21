@@ -1,3 +1,6 @@
+/**
+ * Plain js example of MVC
+ */
 (function () {
 	'use strict';
 	var example1 = document.getElementById('example1');
@@ -11,8 +14,9 @@
 	    for (var i = 0; i< cLength; i = i+1) {
 	        if (containers[i].value !== undefined) {
 	            containers[i].value = model.value;
-	        }
-	        containers[i].textContent = model.value;
+	        } else {
+		        containers[i].textContent = model.value;
+			}
 	    }
 
 	}

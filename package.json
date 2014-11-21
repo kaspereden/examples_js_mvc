@@ -1,0 +1,22 @@
+{
+  "name": "examples_js_mvc",
+  "version": "0.1.0",
+  "homepage": "http://kaspereden.github.io/examples_js_mvc/",
+  "authors": [
+    "Kasper Reijnders <kasper.reijnders@incentro.com>"
+  ],
+  "description": "Examples of an MVC framework",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaspereden/examples_js_mvc.git"
+  },
+  "keywords": [
+    "mustache",
+    "mvc",
+    "angular"
+  ],
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-copy": "^0.7.0"
+  }
+}

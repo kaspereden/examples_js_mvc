@@ -1,0 +1,27 @@
+{
+  "name": "examples_js_mvc",
+  "version": "0.1.0",
+  "homepage": "http://kaspereden.github.io/examples_js_mvc/",
+  "authors": [
+    "Kasper Reijnders <kasper.reijnders@incentro.com>"
+  ],
+  "description": "Examples of an MVC framework",
+  "main": "index.html",
+  "keywords": [
+    "mvc",
+    "angular",
+    "mustache"
+  ],
+  "license": "Apache License 2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true,
+  "devDependencies": {
+    "mustache.js": "~0.8.2"
+  }
+}

@@ -1,3 +1,6 @@
+/**
+ * Plain js example of MVC
+ */
 (function () {
 	'use strict';
 	var example1 = document.getElementById('example1');

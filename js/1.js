@@ -11,8 +11,9 @@
 	    for (var i = 0; i< cLength; i = i+1) {
 	        if (containers[i].value !== undefined) {
 	            containers[i].value = model.value;
-	        }
-	        containers[i].textContent = model.value;
+	        } else {
+		        containers[i].textContent = model.value;
+			}
 	    }
 
 	}

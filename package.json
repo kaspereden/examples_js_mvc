@@ -6,22 +6,17 @@
     "Kasper Reijnders <kasper.reijnders@incentro.com>"
   ],
   "description": "Examples of an MVC framework",
-  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaspereden/examples_js_mvc.git"
+  },
   "keywords": [
+    "mustache",
     "mvc",
-    "angular",
-    "mustache"
+    "angular"
   ],
-  "license": "Apache License 2.0",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "private": true,
   "devDependencies": {
-    "mustache.js": "~0.8.2"
+    "grunt": "^0.4.5",
+    "grunt-contrib-copy": "^0.7.0"
   }
 }
